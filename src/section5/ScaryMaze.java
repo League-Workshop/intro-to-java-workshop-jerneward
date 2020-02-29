@@ -48,7 +48,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		int color = -16777216 ;  
 		int startColor = -21615 ; 
 		//8. If the mouse falls off the path (if it is on the background)
-	if (mouseColor != color (mouseColor != startColor) {
+	if (mouseColor != color && mouseColor != startColor) {
 		
 		scare ();
 	} 
